@@ -53,7 +53,7 @@ const types = {
 	labelPosition: VueTypes.oneOf(['left', 'right', 'top', 'bottom']),
 	number: VueTypes.number,
 	options: VueTypes.oneOfType([VueTypes.arrayOf(VueTypes.object), VueTypes.object]),
-	paginationAt: VueTypes.oneOf(['top', 'bottom', 'both']),
+	paginationAt: VueTypes.oneOf(['top', 'bottom', 'both', 'none']),
 	range: VueTypes.shape({
 		start: VueTypes.number.isRequired,
 		end: VueTypes.number.isRequired,
